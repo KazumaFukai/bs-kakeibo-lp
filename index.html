@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BS家計簿 | 家計簿に、貸借対照表を。</title>
+  <meta name="description" content="BS家計簿は、複式簿記の考え方で資産・負債・純資産まで記録し、貸借対照表や損益計算書で家計の全体像を見える化する家計簿アプリです。" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="header-wrap">
+    <div class="site-header">
+      <a class="brand" href="#" aria-label="BS家計簿 ホーム">
+        <img class="brand-mark" src="./assets/bs-kakeibo-logo.png" alt="" />
+        <span>BS家計簿</span>
+      </a>
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a href="#problem">悩み</a>
+        <a href="#features">特徴</a>
+        <a href="#flow">機能一覧</a>
+        <a href="#pricing">料金</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-primary" href="#start">無料登録</a>
+        <a class="login-link" href="#login">ログイン</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <h1 class="hero-headline">家計簿に、<br><span class="hero-line"><span class="accent">貸借対照表</span>を。</span></h1>
+          <p class="hero-subhead">
+            <span>収支だけでなく、資産・負債・純資産まで見える。</span>
+            <span>BS家計簿は、複式簿記の考え方で家計を管理するWeb家計管理ツールです。</span>
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-blue btn-large" href="#start">無料ではじめる</a>
+            <a class="btn btn-secondary btn-large" href="#flow">機能を見る</a>
+          </div>
+          <ul class="hero-points" aria-label="BS家計簿の主な特徴">
+            <li>複式簿記ベース</li>
+            <li>B/S・P/L対応</li>
+            <li>Webアプリ</li>
+            <li>スマホ・PC対応</li>
+            <li>無料プランあり</li>
+          </ul>
+        </div>
+
+        <div class="laptop-preview hero-key-visual" aria-label="BS家計簿のレポート画面イメージ">
+          <div class="laptop-screen">
+            <button class="hero-screen-carousel" type="button" aria-label="次の画面イメージを表示">
+              <img class="monitor-screenshot monitor-slide is-active" src="./assets/report-screenshot.png" alt="BS家計簿のサマリー画面" />
+              <img class="monitor-screenshot monitor-slide" src="./assets/balance-sheet-screenshot.png" alt="BS家計簿の貸借対照表画面" />
+              <img class="monitor-screenshot monitor-slide" src="./assets/profit-loss-screenshot.png" alt="BS家計簿の損益計算書画面" />
+            </button>
+          </div>
+          <div class="laptop-base"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="problem" class="section problem-section before-after-section">
+      <div class="section-heading problem-intro">
+        <h2>家計簿をつけているのに、<br>本当に資産が増えているか分からない。</h2>
+      </div>
+      <div class="pain-heading">一般的な家計簿の場合...</div>
+      <div class="pain-grid" aria-label="家計簿で起きやすい悩み">
+        <article>
+          <span>預金残高は増えているけれど...</span>
+          <p>奨学金や住宅ローンも残っているため、実質的に資産が増えているのか分かりません。</p>
+        </article>
+        <article>
+          <span>カードを使った月と支出月がずれる</span>
+          <p>1月に使ったクレジットカードの利用分が、引き落とされた2月の支出として反映されてしまう。</p>
+        </article>
+        <article>
+          <span>家や車の価値を表現できない</span>
+          <p>売ればお金になるマイホームや車も、普通の家計簿では資産の金額として記録できない。</p>
+        </article>
+      </div>
+      <div class="affinity-block">
+        <p>一般的な家計簿アプリは、今月いくら使ったか、何にお金を使ったかを確認するには便利です。</p>
+        <p>しかし、現金・預金・株式・マイホーム・車・クレジットカード・ローンなどを、あなたが持っている資産と、これから支払わなければならない負債に分けて、まとめて把握することはできません。</p>
+        <p>もちろん、支出を分析することも大切です。でも、もっと大切なのは、資産と負債を差し引いた実質的な資産である「純資産」が、どのように変化しているかを把握することではないでしょうか。</p>
+      </div>
+</section>
+
+    
+
+    
+
+    
+
+    <section id="features" class="section">
+      <div class="section-heading">
+        <h2>BS家計簿なら、あなたの家計の純資産が分かります</h2>
+        <p class="feature-intro-lead">家計管理に複式簿記の考え方を取り入れています。</p>
+        <p class="feature-intro-detail">複式簿記で記録することで、損益計算書と貸借対照表を自動で作成。<br>毎月の収支だけでなく、資産・負債・純資産の変化まで確認できます。</p>
+      </div>
+
+      <div class="feature-grid">
+        <h2 class="feature-list-title">主な特徴</h2>
+        <article class="feature-input">
+          <div class="feature-copy">
+            <h3>会計ソフト並みに最適化された入力方式</h3>
+            <p>数ある会計ソフトを参考に、入力のしやすさを追求しました。振替伝票・仕訳帳・簡単入力に加え、仕訳辞書機能やCSV読み取り機能で、効率よく記録できます。</p>
+          </div>
+          <div class="feature-visual journal-visual">
+            <div class="feature-video-frame">
+              <video class="feature-demo-video" src="./assets/journal-entry-demo.mp4" muted playsinline preload="metadata" data-start="8" aria-label="BS家計簿の仕訳入力デモ"></video>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-reverse feature-statement">
+          <div class="feature-copy">
+            <h3>家計簿を、会社の帳票レベルで作成</h3>
+            <p>入力した仕訳から、貸借対照表と損益計算書を自動で作成。一般的な家計簿では見えにくい、家計の全体像を数字で確認できます。</p>
+          </div>
+          <div class="feature-visual balance-visual">
+            <div class="statement-gallery">
+              <figure class="statement-shot statement-shot-balance">
+                <figcaption>貸借対照表</figcaption>
+                <img class="feature-screenshot" src="./assets/balance-sheet-feature.png" alt="BS家計簿の貸借対照表画面" />
+              </figure>
+              <figure class="statement-shot statement-shot-profit">
+                <figcaption>損益計算書</figcaption>
+                <img class="feature-screenshot" src="./assets/profit-loss-feature.png" alt="BS家計簿の損益計算書画面" />
+              </figure>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <div class="feature-copy">
+            <h3><span class="feature-line">オンラインで、</span><span class="feature-line">どこでも入力</span></h3>
+            <p>スマホ・タブレット・PCのブラウザから、いつでも家計簿を入力できます。入力したデータはオンラインに保存されるため、端末が変わっても同じ家計簿を確認できます。</p>
+          </div>
+          <div class="feature-visual online-visual" aria-hidden="true">
+            <svg viewBox="0 0 440 280">
+              <path class="online-cloud" d="M173 110c4-31 29-53 61-53 29 0 53 19 59 46 27 1 48 22 48 49 0 28-23 51-51 51H169c-30 0-54-24-54-54 0-25 17-46 41-52 4-2 10-4 17-7Z"></path>
+              <path class="online-sync" d="M197 130c15-18 43-20 61-5"></path>
+              <path class="online-sync" d="m254 112 7 14-16 2"></path>
+              <path class="online-sync" d="M258 164c-16 18-44 19-62 3"></path>
+              <path class="online-sync" d="m201 181-8-14 16-3"></path>
+              <rect class="online-device" x="42" y="165" width="128" height="78" rx="7"></rect>
+              <path class="online-device" d="M27 249h158l-12 15H40Z"></path>
+              <rect class="online-device" x="342" y="147" width="60" height="112" rx="10"></rect>
+              <line class="online-device" x1="363" y1="242" x2="381" y2="242"></line>
+              <path class="online-connection" d="M144 181c16-10 25-15 41-21"></path>
+              <path class="online-connection" d="M316 163c13 4 21 8 30 14"></path>
+            </svg>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="flow" class="section flow-section">
+      <div class="section-heading">
+        <h2>機能一覧</h2>
+        <p>複式簿記で家計を続けるための主な機能です。</p>
+      </div>
+      <div class="flow feature-list">
+        <article>
+          <span class="feature-list-icon icon-entry" aria-hidden="true"></span>
+          <h3>仕訳入力</h3>
+        </article>
+        <article>
+          <span class="feature-list-icon icon-repeat" aria-hidden="true"></span>
+          <h3>入力補助・CSV取込</h3>
+        </article>
+        <article>
+          <span class="feature-list-icon icon-report" aria-hidden="true"></span>
+          <h3>貸借対照表・損益計算書</h3>
+        </article>
+        <article>
+          <span class="feature-list-icon icon-chart" aria-hidden="true"></span>
+          <h3>円グラフで内訳を確認</h3>
+        </article>
+        <article>
+          <span class="feature-list-icon icon-period" aria-hidden="true"></span>
+          <h3>期間選択・年間集計</h3>
+        </article>
+        <article>
+          <span class="feature-list-icon icon-search" aria-hidden="true"></span>
+          <h3>仕訳帳と検索</h3>
+        </article>
+        <article>
+          <span class="feature-list-icon icon-calendar" aria-hidden="true"></span>
+          <h3>カレンダー表示</h3>
+        </article>
+        <article>
+          <span class="feature-list-icon icon-setting" aria-hidden="true"></span>
+          <h3>科目・カラーを編集</h3>
+        </article>
+        <article>
+          <span class="feature-list-icon icon-online" aria-hidden="true"></span>
+          <h3>オンライン保存</h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="fit" class="section fit-section">
+      <div class="section-heading">
+        <h2>こんな方におすすめです</h2>
+        <p>収支だけではなく、家計の全体像まで把握したい方に向いています。</p>
+      </div>
+      <div class="fit-grid">
+        <article>
+          <div class="fit-avatar avatar-one" aria-hidden="true">
+            <img src="./assets/fit-man-laptop.png" alt="" />
+          </div>
+          <div>
+            <p>収支だけでは物足りない</p>
+            <h3>普通の家計簿アプリで、収支しか見えないことに不満がある方へ</h3>
+            <p class="fit-desc">BS家計簿なら貸借対照表まで確認できるので、現金や預金だけでなく、投資・ローン・クレジットカードまで含めて家計を見られます。</p>
+          </div>
+          <span class="fit-arrow" aria-hidden="true">→</span>
+        </article>
+        <article>
+          <div class="fit-avatar avatar-two" aria-hidden="true">
+            <img src="./assets/fit-woman-study.png" alt="" />
+          </div>
+          <div>
+            <p>簿記を暮らしに活かしたい</p>
+            <h3>簿記を勉強したけれど、日常で活かす場面が少ない方へ</h3>
+            <p class="fit-desc">借方・貸方、資産・負債・純資産の考え方を、毎日の家計管理でそのまま使えます。</p>
+          </div>
+          <span class="fit-arrow" aria-hidden="true">→</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="voices" class="section voice-section">
+      <div class="section-heading">
+        <h2>ユーザーの声</h2>
+      </div>
+      <div class="voice-grid">
+        <article>
+          <div class="voice-profile">
+            <div class="voice-avatar"><img src="./assets/voice-man-laptop.png" alt="" /></div>
+            <span>30代・男性</span>
+          </div>
+          <p>「今月いくら使ったかだけでなく、純資産が増えているのかまで見られるのがいいです。家計の状態を数字で判断できるようになりました。」</p>
+        </article>
+        <article>
+          <div class="voice-profile">
+            <div class="voice-avatar"><img src="./assets/voice-man-book.png" alt="" /></div>
+            <span>40代・男性</span>
+          </div>
+          <p>「投資やローン返済をただの支出にしなくていいのがしっくりきます。会計ソフトに近い入力なのに、家計用として使いやすいです。」</p>
+        </article>
+        <article>
+          <div class="voice-profile">
+            <div class="voice-avatar"><img src="./assets/voice-woman-study.png" alt="" /></div>
+            <span>20代・女性</span>
+          </div>
+          <p>「簿記を勉強したものの、日常で活かす場面があまりありませんでした。借方・貸方の考え方を家計で使えるのは思った以上に身近です。」</p>
+        </article>
+      </div>
+      <div class="developer-story">
+        <div class="developer-story-heading">
+          <span>開発者メッセージ</span>
+          <h3><span>会計ソフトを使ってきた経験を、</span><span>家計簿へ。</span></h3>
+        </div>
+        <p>開発者自身も、複式簿記の考え方で家計を管理してきました。仕事柄、個人向けから業務向けまで10種類以上の会計ソフトを使ってきた経験をもとに、資産・負債・純資産まで正確に把握でき、日々の入力も続けやすい家計簿としてBS家計簿を開発しました。</p>
+      </div>
+    </section>
+
+    
+
+    
+
+    
+
+    <section id="pricing" class="section pricing-section">
+      <div class="section-heading">
+        <h2>料金</h2>
+        <p>まずは無料で、家計を資産・負債・純資産で見る体験から始められます。</p>
+        <div class="pricing-trial">
+          <span>今ならProプランを1か月無料体験できます</span>
+          <p>補助科目やCSV・PDFエクスポートなど、有料機能まで試してから選べます。</p>
+        </div>
+      </div>
+      <div class="pricing-table" role="region" aria-label="料金プラン比較" tabindex="0">
+        <table>
+          <thead>
+            <tr>
+              <th>機能</th>
+              <th>無料</th>
+              <th>Pro（月額）<span>¥480 / 月</span></th>
+              <th>Pro（年額）<span>¥4,800 / 年</span><small>月額払いより年間¥960お得</small></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>基本入力<br><span>振替伝票入力・仕訳帳入力・簡単入力</span></td><td>○</td><td>○</td><td>○</td></tr>
+            <tr><td>直前仕訳入力</td><td>-</td><td>○</td><td>○</td></tr>
+            <tr><td>仕訳辞書機能</td><td>-</td><td>○</td><td>○</td></tr>
+            <tr><td>CSV取り込み入力</td><td>-</td><td>○</td><td>○</td></tr>
+            <tr><td>貸借対照表・損益計算書の表示</td><td>○</td><td>○</td><td>○</td></tr>
+            <tr><td>閲覧期間</td><td>全期間</td><td>全期間</td><td>全期間</td></tr>
+            <tr><td>勘定科目数</td><td>40件まで</td><td>無制限</td><td>無制限</td></tr>
+            <tr><td>補助科目機能</td><td>×</td><td>無制限</td><td>無制限</td></tr>
+            <tr><td>前年同期対比</td><td>-</td><td>○</td><td>○</td></tr>
+            <tr><td>CSV・PDFエクスポート</td><td>-</td><td>○</td><td>○</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pricing-note">
+        <p>
+          <span>無料版でも、基本入力や貸借対照表・損益計算書の確認まで使えます。</span>
+          <span>今ならProプランも1か月無料で体験できます。</span>
+        </p>
+        <a class="btn btn-primary" href="#start">無料登録</a>
+      </div>
+      <p class="tax-note">価格は税込です。内容は今後変更される場合があります。</p>
+    </section>
+
+    <section id="faq" class="section faq">
+      <div class="section-heading">
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq-grid">
+        <details>
+          <summary>簿記がわからなくても使えますか？</summary>
+          <p>使えます。ただし、複式簿記の考え方を理解している方が、より便利に使えます。</p>
+        </details>
+        <details>
+          <summary>スマホでも使えますか？</summary>
+          <p>はい。スマホ、タブレット、PCのブラウザから利用できます。日々の入力はスマホ、月次確認はPCで行う使い方を想定しています。</p>
+        </details>
+        <details>
+          <summary>無料で使えますか？</summary>
+          <p>はい。無料プランから利用できます。より本格的に管理したい方向けに、Proプランを用意する予定です。</p>
+        </details>
+        <details>
+          <summary>他の家計簿アプリと何が違いますか？</summary>
+          <p>一般的な家計簿アプリは支出管理が中心です。BS家計簿は、複式簿記の考え方で、資産・負債・純資産まで管理できる点が特徴です。</p>
+        </details>
+        <details>
+          <summary>クレジットカードやローンも管理できますか？</summary>
+          <p>はい。クレジットカード未払金やローン残高も、負債として管理できます。</p>
+        </details>
+        <details>
+          <summary>データのエクスポートはできますか？</summary>
+          <p>ProプランでCSVエクスポート機能を提供予定です。</p>
+        </details>
+        <details>
+          <summary>今後スマホアプリ版は出ますか？</summary>
+          <p>まずはWebアプリとして提供します。スマホアプリ版については、利用状況を見ながら検討します。</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="start" class="section final-cta-section">
+      <div class="final-action-grid">
+        <div class="final-cta">
+          <h2>まずは無料で試してみませんか？</h2>
+          <p>登録すると、ブラウザ上ですぐにBS家計簿を利用できます。インストールは不要です。</p>
+          <a class="btn btn-primary btn-large" href="#">無料登録</a>
+        </div>
+        <div class="contact-box">
+          <h3>お問い合わせ</h3>
+          <p>ご質問、不具合報告、導入前の確認などがあれば、お問い合わせください。</p>
+          <a class="btn btn-secondary" href="#">お問い合わせはこちら</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <nav aria-label="フッターナビゲーション">
+      <a href="#">利用規約</a>
+      <a href="#">プライバシーポリシー</a>
+      <a href="#">特定商取引法に基づく表記</a>
+    </nav>
+  </footer>
+
+  <script>
+    const revealItems = [
+      ['.hero-copy', 'reveal-up'],
+      ['.laptop-preview', 'reveal-right'],
+      ['#problem .section-heading', 'reveal-up'],
+      ['#problem .pain-grid article', 'reveal-up'],
+      ['#problem .affinity-block', 'reveal-up'],
+      ['#features .section-heading', 'reveal-up'],
+      ['.flow-section .section-heading', 'reveal-up'],
+      ['.flow article', 'reveal-up'],
+      ['.fit-section .section-heading', 'reveal-up'],
+      ['.fit-grid article', 'reveal-right'],
+      ['#voices .section-heading', 'reveal-up'],
+      ['#voices .voice-grid article', 'reveal-up'],
+      ['#voices .developer-story', 'reveal-up'],
+      ['.pricing-section .section-heading', 'reveal-up'],
+      ['.pricing-trial', 'reveal-up'],
+      ['.pricing-table', 'reveal-up'],
+      ['.faq .section-heading', 'reveal-up'],
+      ['.faq-grid details', 'reveal-up'],
+      ['.final-cta', 'reveal-up'],
+      ['.contact-box', 'reveal-up']
+    ];
+
+    revealItems.forEach(([selector, className]) => {
+      document.querySelectorAll(selector).forEach((element, index) => {
+        element.classList.add('reveal', className);
+        element.style.setProperty('--reveal-delay', `${Math.min(index * 90, 360)}ms`);
+      });
+    });
+
+    document.querySelectorAll('#features .feature-grid article').forEach((article) => {
+      const copy = article.querySelector('.feature-copy');
+      const visual = article.querySelector('.feature-visual');
+
+      if (copy) {
+        copy.classList.add('reveal', 'reveal-up');
+        copy.style.setProperty('--reveal-delay', '0ms');
+      }
+
+      if (visual) {
+        visual.classList.add('reveal', 'reveal-up');
+        visual.style.setProperty('--reveal-delay', '220ms');
+      }
+    });
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.16, rootMargin: '0px 0px -8% 0px' });
+
+    document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
+
+    const featureVideos = document.querySelectorAll('.feature-demo-video');
+    const videoObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        const video = entry.target;
+        const startAt = Number(video.dataset.start || 0);
+        video.playbackRate = 1.2;
+
+        if (entry.isIntersecting) {
+          if (video.currentTime < startAt) {
+            video.currentTime = startAt;
+          }
+          video.play().catch(() => {});
+        } else {
+          video.pause();
+        }
+      });
+    }, { threshold: 0.35 });
+
+    featureVideos.forEach((video) => {
+      const startAt = Number(video.dataset.start || 0);
+
+      video.addEventListener('loadedmetadata', () => {
+        video.currentTime = startAt;
+        video.playbackRate = 1.2;
+      });
+
+      video.addEventListener('ended', () => {
+        video.currentTime = startAt;
+        video.play().catch(() => {});
+      });
+
+      videoObserver.observe(video);
+    });
+
+    const fitSection = document.querySelector('.fit-section');
+    if (fitSection) {
+      fitSection.addEventListener('mouseenter', () => {
+        fitSection.classList.remove('fit-pulse');
+        window.requestAnimationFrame(() => fitSection.classList.add('fit-pulse'));
+      });
+    }
+
+    const heroCarousel = document.querySelector('.hero-screen-carousel');
+    const heroSlides = document.querySelectorAll('.hero-screen-carousel .monitor-slide');
+    let heroSlideIndex = 0;
+    let heroSlideTimer;
+
+    const showHeroSlide = (nextIndex) => {
+      if (!heroSlides.length) return;
+      heroSlides[heroSlideIndex].classList.remove('is-active');
+      heroSlideIndex = (nextIndex + heroSlides.length) % heroSlides.length;
+      heroSlides[heroSlideIndex].classList.add('is-active');
+    };
+
+    const startHeroCarousel = () => {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      window.clearInterval(heroSlideTimer);
+      heroSlideTimer = window.setInterval(() => showHeroSlide(heroSlideIndex + 1), 6200);
+    };
+
+    if (heroCarousel && heroSlides.length) {
+      heroCarousel.addEventListener('click', () => {
+        showHeroSlide(heroSlideIndex + 1);
+        startHeroCarousel();
+      });
+      startHeroCarousel();
+    }
+  </script>
+</body>
+</html>
